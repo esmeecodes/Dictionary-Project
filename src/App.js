@@ -7,14 +7,17 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="logo" />
+        
       </header>
         <main>
           <Dictionary/>
         </main>
-      <footer className="text-center">
+      <footer className="text-center mb-5">
         Coded by Esmée Zootjes
-      </footer>
+      </footer><div className="mt-5">
+      <img src={logo} className="App-logo img-fluid" alt="logo" />
+      </div>
+
       </div>
     </div>
   );
