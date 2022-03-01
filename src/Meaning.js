@@ -3,7 +3,7 @@ import Synonyms from "./Synonyms";
 import Examples from "./Examples";
 
 export default function Meaning(props) {
-  //   console.log(props.meaning);
+  console.log(props.meaning);
   return (
     <div>
       <h3>{props.meaning.partOfSpeech}</h3>
@@ -12,7 +12,9 @@ export default function Meaning(props) {
           <div key={index}>
             <p>
               <strong>Definition:</strong> {definition.definition} {""}
-              <Examples examples={definition.examples} />
+              <em>
+                <Examples examples={definition.examples} />
+              </em>
               <br />
               <Synonyms synonyms={definition.synonyms} />
             </p>
