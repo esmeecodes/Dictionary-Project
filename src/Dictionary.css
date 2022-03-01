@@ -1,3 +1,5 @@
-.dictionary {
-    background:
+.Dictionary .Search {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }

@@ -25,7 +25,7 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary">
+    <div className="Search">
       <h2 className="mt-3">Zoek naar een woord</h2>
       <form onSubmit={Search}>
         <input type="search" autoFocus={true} onChange={handleKeywordChange} />

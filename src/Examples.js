@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Examples(props) {
   console.log(props);
-  if (props.example) {
+  if (props.examples) {
     return (
       <div>
         <strong>Example:</strong>
