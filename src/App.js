@@ -8,9 +8,14 @@ export default function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="text-left mb-5">Coded by Esmée Zootjes</footer>
+        <footer className="footer mb-5">
+          Coded by{" "}
+          <a href="https://www.linkedin.com/in/esmeezootjes/" target="_blank">
+            Esmée Zootjes
+          </a>
+        </footer>
         <div className="mt-5">
           <br />
           <br />

@@ -1,0 +1,22 @@
+.Results h2 {
+  font-size: 36px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.Word {
+  padding: 30px;
+  background: #ececec 0.5;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Definitions {
+  padding: 30px;
+  background: #ececec 0.5;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+}

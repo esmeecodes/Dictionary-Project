@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+a {
+  color: #ffb5b5;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+}
 .App-logo {
   max-width: 280px;
   pointer-events: none;
