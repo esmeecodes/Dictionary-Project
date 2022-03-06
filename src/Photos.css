@@ -1,0 +1,18 @@
+.Photodisplay {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+
+  background: white;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+.row img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.row:first-child {
+  margin-top: 10px;
+}
