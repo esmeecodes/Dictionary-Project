@@ -1,0 +1,17 @@
+h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+.Definitions {
+  padding: 20px;
+}
+.Definition {
+  font-size: 14px;
+  margin-right: 0;
+}
+.Example {
+  font-style: italic;
+  color: #9ba6a5;
+  font-size: 13px;
+}

@@ -36,7 +36,7 @@ export default function Dictionary(props) {
     return (
       <div className="Search">
         <div className="Zoekgedeelte">
-          <h2>dictionary</h2>
+          <h2>Dictionary</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -46,7 +46,7 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="hint">
-            suggestions: spark, sunray, mindset, tent, fire
+            Suggestions: spark, sunray, mindset, tent, fire
           </div>
         </div>
 
