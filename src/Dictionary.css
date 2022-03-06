@@ -1,7 +1,7 @@
 .Zoekgedeelte {
   padding: 30px;
-  background: #fff1eb;
-  border: 1px solid #fff1eb;
+  background-color: white;
+  border: 1px solid white;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -14,6 +14,14 @@
   border: 1px solid #9ba6a5;
   padding: 4px;
   border-radius: 3px;
+}
+
+.Zoekgedeelte input:focus {
+  outline: 1px solid #9fd3c7;
+}
+
+.Zoekgedeelte search {
+  outline-offset: 0;
 }
 
 .hint {

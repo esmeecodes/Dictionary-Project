@@ -36,13 +36,13 @@ export default function Dictionary(props) {
     return (
       <div className="Search">
         <div className="Zoekgedeelte">
-          <h2>Dictionary</h2>
+          <h2>Search for a word</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
               autoFocus={true}
               onChange={handleKeywordChange}
-              placeholder="Type a word..."
+              placeholder={props.defaultKeyword}
             />
           </form>
           <div className="hint">
@@ -50,7 +50,7 @@ export default function Dictionary(props) {
           </div>
         </div>
 
-        <div className="mt-5">
+        <div className="Results">
           <Results results={results} />
         </div>
       </div>

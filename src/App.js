@@ -16,12 +16,6 @@ export default function App() {
             Esmée Zootjes
           </a>
         </footer>
-        <div className="mt-5">
-          <br />
-          <br />
-          <br />
-          <img src={logo} className="App-logo img-fluid mt-5" alt="logo" />
-        </div>
       </div>
     </div>
   );
