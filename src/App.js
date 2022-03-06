@@ -12,7 +12,11 @@ export default function App() {
         </main>
         <footer className="footer mb-5">
           Coded by{" "}
-          <a href="https://www.linkedin.com/in/esmeezootjes/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/esmeezootjes/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Esmée Zootjes
           </a>
         </footer>
