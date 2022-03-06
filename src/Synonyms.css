@@ -1,3 +1,12 @@
-ul {
-  list-style: none;
+.synonym {
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 8px 10px;
+  border-radius: 20px;
+  background-color: #ececec;
+  font-size: 13px;
+}
+
+.Synonyms {
+  margin-bottom: 20px;
 }
